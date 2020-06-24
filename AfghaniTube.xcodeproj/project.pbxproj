@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0799CD224A330800041AD1A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CD124A330800041AD1A /* Constants.swift */; };
+		C0799CD424A33A150041AD1A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CD324A33A150041AD1A /* Video.swift */; };
+		C0799CD624A33BBE0041AD1A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CD524A33BBE0041AD1A /* Model.swift */; };
 		C0A6454724A1071900B0C8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6454624A1071900B0C8F6 /* AppDelegate.swift */; };
 		C0A6454924A1071900B0C8F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6454824A1071900B0C8F6 /* SceneDelegate.swift */; };
 		C0A6454B24A1071900B0C8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6454A24A1071900B0C8F6 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0799CD124A330800041AD1A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C0799CD324A33A150041AD1A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C0799CD524A33BBE0041AD1A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C0A6454324A1071900B0C8F6 /* AfghaniTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfghaniTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A6454624A1071900B0C8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A6454824A1071900B0C8F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				C0A6454F24A1071A00B0C8F6 /* Assets.xcassets */,
 				C0A6455124A1071A00B0C8F6 /* LaunchScreen.storyboard */,
 				C0A6455424A1071A00B0C8F6 /* Info.plist */,
+				C0799CD124A330800041AD1A /* Constants.swift */,
+				C0799CD324A33A150041AD1A /* Video.swift */,
+				C0799CD524A33BBE0041AD1A /* Model.swift */,
 			);
 			path = AfghaniTube;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				C0A6454B24A1071900B0C8F6 /* ViewController.swift in Sources */,
 				C0A6454724A1071900B0C8F6 /* AppDelegate.swift in Sources */,
 				C0A6454924A1071900B0C8F6 /* SceneDelegate.swift in Sources */,
+				C0799CD624A33BBE0041AD1A /* Model.swift in Sources */,
+				C0799CD224A330800041AD1A /* Constants.swift in Sources */,
+				C0799CD424A33A150041AD1A /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
