@@ -13,6 +13,8 @@
 		C0799CD824A373570041AD1A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CD724A373570041AD1A /* Response.swift */; };
 		C0799CDA24A3C1C00041AD1A /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CD924A3C1C00041AD1A /* VideoTableViewCell.swift */; };
 		C0799CE124A3D1FB0041AD1A /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CE024A3D1FB0041AD1A /* CacheManager.swift */; };
+		C0799CE324A3D8580041AD1A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0799CE224A3D8580041AD1A /* DetailViewController.swift */; };
+		C0799CE624A3E5380041AD1A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0799CE524A3E5380041AD1A /* WebKit.framework */; };
 		C0A6454724A1071900B0C8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6454624A1071900B0C8F6 /* AppDelegate.swift */; };
 		C0A6454924A1071900B0C8F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6454824A1071900B0C8F6 /* SceneDelegate.swift */; };
 		C0A6454B24A1071900B0C8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6454A24A1071900B0C8F6 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 		C0799CD724A373570041AD1A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		C0799CD924A3C1C00041AD1A /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		C0799CE024A3D1FB0041AD1A /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		C0799CE224A3D8580041AD1A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C0799CE524A3E5380041AD1A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C0A6454324A1071900B0C8F6 /* AfghaniTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfghaniTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A6454624A1071900B0C8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A6454824A1071900B0C8F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0799CE624A3E5380041AD1A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A6454A24A1071900B0C8F6 /* ViewController.swift */,
+				C0799CE224A3D8580041AD1A /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -93,11 +99,20 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		C0799CE424A3E5380041AD1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0799CE524A3E5380041AD1A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0A6453A24A1071800B0C8F6 = {
 			isa = PBXGroup;
 			children = (
 				C0A6454524A1071900B0C8F6 /* AfghaniTube */,
 				C0A6454424A1071900B0C8F6 /* Products */,
+				C0799CE424A3E5380041AD1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +218,7 @@
 				C0799CD624A33BBE0041AD1A /* Model.swift in Sources */,
 				C0799CD224A330800041AD1A /* Constants.swift in Sources */,
 				C0799CDA24A3C1C00041AD1A /* VideoTableViewCell.swift in Sources */,
+				C0799CE324A3D8580041AD1A /* DetailViewController.swift in Sources */,
 				C0799CD424A33A150041AD1A /* Video.swift in Sources */,
 				C0799CD824A373570041AD1A /* Response.swift in Sources */,
 			);
