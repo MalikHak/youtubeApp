@@ -30,7 +30,23 @@ class Model {
                 return
             }
             
-            //Parsing the data into viewObjects
+            //Parsing the data into video Objects
+            
+      
+            
+            do{
+                let decoder = JSONDecoder()
+                
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data!)
+
+                
+                dump(response)
+            }catch{ 
+                
+            }
+            
+            
             
             
         }
